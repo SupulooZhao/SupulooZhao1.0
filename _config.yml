@@ -12,7 +12,7 @@ baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 # SNS settings
 RSS: false
-#weibo_username:     supuloo
+weibo_username:     supuloo
 #zhihu_username:     zhao-aoui
 github_username:    SupulooZhao
 #twitter_username:  huxpro
@@ -83,19 +83,16 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
-        title: "Hux",
-        href: "http://huangxuan.me"
+        title: "苏噗噜",
+        href: "https://space.bilibili.com/7998925"
+    },{
+        title: "AOUI",
+        href: "https://mp.weixin.qq.com/mp/homepage?__biz=MzIwMjgwODY2Mg==&hid=2&sn=5c25184cd74d2804762a17580a9e9fbf&scene=18#wechat_redirect"
     },{
         title: "小铭同学",
         href: "//drymx.com/"
     },{
-        title: "Bar",
-        href: "#"
-    },{
-        title: "Example Friends",
-        href: "#"
-    },{
-        title: "It helps SEO",
-        href: "#"
+        title: "Hux",
+        href: "http://huangxuan.me"
     }
 ]
