@@ -1,0 +1,90 @@
+---
+layout: page
+title: "About"
+description: "Hey, this is Supuloo:)"
+header-img: "img/about-bg.jpg"
+multilingual: true
+---
+
+<!-- Language Selector -->
+<select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
+    <option value="0" selected> 中文 Chinese </option>
+    <option value="1"> 英文 English </option>
+</select>
+
+<!-- Chinese Version -->
+<div class="zh post-container">
+
+    <!--用markdown写about me的方法：
+    {% capture about_zh %}{% include about/zh.md %}{% endcapture %}
+    {{ about_zh | markdownify }}
+    -->
+    <blockquote>
+            心怀赤诚，向往蓝天，拥抱彩虹。
+        </blockquote>
+        积极乐观，欢脱沙雕的湖南伢子，就读于西安电子科技大学电子信息工程专业，研究兴趣是计算机视觉（Computer Vision）。建这个博客是想在这里记录下一切我在工作学习领域打副本升级的各种故事，故事主要包含以下方面：<br>
+        <br>
+        <ul>
+            <li><b>技能·练习</b>  我日常刷刷代码题，学学新技能过程中遇到的小问题及经验、心得。</li>
+            <li><b>实训·项目</b>  本科期间及之后参与的科研实训或项目记录，侧重于我所做的具体工作。</li>
+            <li><b>灵感·随笔</b>  关于技术、社会、工作等方面的杂谈，可能会有不少脑洞。</li>
+            <li><b>资源·分享</b>  一些不错的软件或教程的分享，希望能帮助更多有需要的朋友。</li>
+        </ul>
+        前二十几年都喜欢着各种艺术相关的事物，也将继续喜欢下去。我的其它更多故事可以在网页右侧或下方的链接入口找到，技术暂时有限，本网页没有互动功能，因此你可以通过其它那些链接与我联系，或者直接发送邮件到我的邮箱：zhaosukii@outlook.com。
+        
+        <br><br>这个世界乱纷纷，先把自己铸炼成器。希望你在此有所收获。
+
+</div>
+
+<!-- English Version -->
+<div class="en post-container">
+    <!--
+    {% capture about_en %}{% include about/en.md %}{% endcapture %}
+    {{ about_en | markdownify }}
+    -->
+    <blockquote>
+            You spend most of your life with yourself, so make yourself interesting.
+        </blockquote>
+    
+        <p>
+            Studied in Electronic Information Engineering, Xidian University, with an interest in Computer Vision. This blog is designed to record all the stories of my experiences in the field of work and study. The stories mainly include the following aspects:<br>
+        </p>
+        <ul>
+                <li><b>Skill & Exercise</b>  The problems I encounter and the my solution to them in my daily work or study.</li>
+                <li><b>Practice & Program</b>  Team projects that I have participated in or are participating in.</li>
+                <li><b>Inspiration & Essay</b>  Some ideas about science and technology, society and the future.</li>
+                <li><b>Resource & Share</b>  Some good software or tutorials to share, hoping to help more friends in need.</li>
+        </ul>
+        <p>
+            More of my stories can be found at the links on the right or below of the page. You can contact me through these links or send email directly to my mailbox: zhaosukii@outlook.com
+        </p>
+        <p>
+            Valar Dohaeris. Hope you have fun here:)
+        </p>
+</div>
+
+
+{% if site.disqus_username %}
+<!-- disqus 评论框 start -->
+<div class="comment">
+    <div id="disqus_thread" class="disqus-thread">
+
+    </div>
+</div>
+<!-- disqus 评论框 end -->
+
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "{{site.disqus_username}}";
+    var disqus_identifier = "{{site.disqus_username}}/{{page.url}}";
+    var disqus_url = "{{site.url}}{{page.url}}";
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
+{% endif %}
