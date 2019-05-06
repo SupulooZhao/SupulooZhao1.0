@@ -5,7 +5,7 @@ header-img: img/home-bg.jpg
 email: zhaosukii@outlook.com
 description: ""
 keyword: ""
-url: "https://supuloozhao.github.io/"              # your host, for absolute URL
+url: "//supuloozhao.github.io/"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
@@ -17,7 +17,7 @@ weibo_username:     supuloo
 github_username:    SupulooZhao
 #twitter_username:  huxpro
 #facebook_username:  huxpro
-#ins_username:       supuloo.z
+ins_username:       supuloo.z
 
 
 
@@ -84,15 +84,15 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 friends: [
     {
         title: "苏噗噜",
-        href: "https://space.bilibili.com/7998925"
+        href: "//space.bilibili.com/7998925"
     },{
         title: "AOUI",
-        href: "https://mp.weixin.qq.com/mp/homepage?__biz=MzIwMjgwODY2Mg==&hid=2&sn=5c25184cd74d2804762a17580a9e9fbf&scene=18#wechat_redirect"
+        href: "//mp.weixin.qq.com/mp/homepage?__biz=MzIwMjgwODY2Mg==&hid=2&sn=5c25184cd74d2804762a17580a9e9fbf&scene=18#wechat_redirect"
     },{
         title: "小铭同学",
         href: "//drymx.com/"
     },{
         title: "Hux",
-        href: "http://huangxuan.me"
+        href: "//huangxuan.me"
     }
 ]
